@@ -44,8 +44,8 @@ if __name__ == '__main__':
                                 print(row)
         
         #append new rows for searched value to bottom of CSV file. 
-        apendanswer = input("append?")
-        if apendanswer == "y" or apendanswer == "Y":
+        appendanswer = input("append?")
+        if appendanswer == "y" or apendanswer == "Y":
             while exit != 1:
                 with open(file) as TenantsFile:
                     with open("Export.csv", 'a') as ef:
